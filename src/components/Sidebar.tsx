@@ -33,7 +33,7 @@ export default function Sidebar() {
           </div>
           <div>
             <h1 className="text-white font-bold text-lg leading-tight">FL System</h1>
-            <p className="text-xs text-slate-500 uppercase tracking-wider font-semibold">Federated Learning</p>
+            <p className="text-xs text-slate-500 uppercase tracking-wider font-semibold">Federateds Learning</p>
           </div>
         </div>
 
