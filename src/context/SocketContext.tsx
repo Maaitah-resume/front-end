@@ -8,10 +8,9 @@ export function SocketProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     // In a real app, this would be your backend URL
-    // For now, we'll just mock the socket behavior in components if it's null
-    const newSocket = io('https://maaitah-resume.github.io/front-end/', {
-      autoConnect: true, // Don't actually try to connect to a non-existent server
-    });
+  const newSocket = io('http://localhost:4000', {
+  autoConnect: false,   // prototype mode — no backend yet
+});
     setSocket(newSocket);
 
     return () => {
